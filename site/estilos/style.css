@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    
+}
+
+nav.menu {
+    background-color: lightcyan;
+    width: 100%;
+    height: 5vh;
+    padding-top: 10px;
+
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav.menu a {
+    padding: 10px;
+}
+
+section.inicial {
+    background-color: lightgoldenrodyellow;
+    width: 95vw;
+    height: 25vw;
+    margin: auto;
+
+    margin-top: 15px;
+    padding: 10px;
+}
+
+section.sobre {
+    background-color: lightcoral;
+    width: 95vw;
+    height: 25vw;
+    margin: auto;
+
+    margin-top: 15px;
+    padding: 10px;
+}
+
+section.servicos {
+    background-color: lightblue;
+    width: 95vw;
+    height: 25vw;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+
+
+.servicos .caixa {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.contato {
+    background-color: lightgreen;
+    width: 97%;
+    height: 15vh;
+
+    margin: auto;
+    margin-top: 15px;
+}
