@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +17,7 @@
 body {
     width: 100%;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 1rem;
     
 }
@@ -20,6 +27,8 @@ nav.menu {
     width: 100%;
     height: 5vh;
     padding-top: 10px;
+
+    
 
     display: flex;
     margin: auto;
@@ -49,27 +58,37 @@ section.sobre {
     margin-top: 15px;
     padding: 10px;
 }
-
-section.servicos {
+.servicos {
     background-color: lightblue;
     width: 95vw;
-    height: 25vw;
+    height: 500px;
     margin: auto;
-
-    display: flex;
+    
+    display: block;
+    flex-wrap: wrap;
+    
     justify-content: space-evenly;
+    
     margin-top: 15px;
     padding: 10px;
 }
 
-
-
-.servicos .caixa {
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    padding: 10px;
+.servicos h2 {
     text-align: center;
+    margin-bottom: 15px;
+}
+
+.servicos .cards {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.caixa {
+  border: 1px solid black;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
 }
 
 .contato {
