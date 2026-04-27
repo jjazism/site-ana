@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    
+}
+
+nav.menu {
+    background-color: lightcyan;
+    width: 100%;
+    height: 5vh;
+    padding-top: 10px;
+
+    
+
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav.menu a {
+    padding: 10px;
+}
+
+section.inicial {
+    background-color: lightgoldenrodyellow;
+    width: 95vw;
+    height: 25vw;
+    margin: auto;
+
+    margin-top: 15px;
+    padding: 10px;
+}
+
+section.sobre {
+    background-color: lightcoral;
+    width: 95vw;
+    height: 25vw;
+    margin: auto;
+
+    margin-top: 15px;
+    padding: 10px;
+}
+.servicos {
+    background-color: lightblue;
+    width: 95vw;
+    height: 500px;
+    margin: auto;
+    
+    display: block;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.servicos h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.servicos .cards {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.caixa {
+  border: 1px solid black;
+  width: 400px;
+  padding: 10px;
+  text-align: center;
+}
+
+.contato {
+    background-color: lightgreen;
+    width: 97%;
+    height: 15vh;
+
+    margin: auto;
+    margin-top: 15px;
+}
